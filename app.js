@@ -33,6 +33,18 @@ app.get('/colors', function(req, res) {
   })
 })
 
+app.get('/colors/:id', function (req, res){
+  db.getAll('colors', function (err, colorsObj){
+    var color = _.find(colorsObj.colors, function(color){
+      // console.log(color.id === Number(req.params.id));
+      return color.id === Number(req.params.id)
+      // console.log(req.params)
+    })
+    // console.log(color)
+    res.render('colors-show', colorsObj)
+  })
+})
+
 
 
 

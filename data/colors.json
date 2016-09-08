@@ -1,34 +1,37 @@
 {"colors":[{
         "id":1,
         "colorName":"red",
-        "hexValue":"#f00"
+        "hexValue":"#c85353",
+        "linkTo": "http://flatui.com/flat-ui-color-palette/"
     },
     {
         "id":2,
         "colorName":"green",
-        "hexValue":"#0f0"
+        "hexValue":"#59c359",
+        "linkTo": "http://flatui.com/flat-ui-color-palette/"
     },
     {
         "id":3,
         "colorName":"blue",
-        "hexValue":"#00f"
+        "hexValue":"#4f4fb6",
+        "linkTo": "http://flatui.com/flat-ui-color-palette/"
     },
     {
         "id":4,
         "colorName":"cyan",
-        "hexValue":"#0ff",
+        "hexValue":"#57c4c4",
         "linkTo": "http://flatui.com/flat-ui-color-palette/"
     },
     {
         "id":5,
         "colorName":"magenta",
-        "hexValue":"#f0f",
+        "hexValue":"#c464c4",
         "linkTo": "http://flatui.com/flat-ui-color-palette/"
     },
     {
         "id":6,
         "colorName":"yellow",
-        "hexValue":"#ff0",
+        "hexValue":"#cfcf71",
         "linkTo": "http://flatui.com/flat-ui-color-palette/"
     },
     {
