@@ -1,0 +1,36 @@
+"colorsArray":[{
+        "id":1,
+        "colorName":"red",
+        "hexValue":"#f00"
+    },
+    {
+        "id":2,
+        "colorName":"green",
+        "hexValue":"#0f0"
+    },
+    {
+        "id":3,
+        "colorName":"blue",
+        "hexValue":"#00f"
+    },
+    {
+        "id":4,
+        "colorName":"cyan",
+        "hexValue":"#0ff"
+    },
+    {
+        "id":5,
+        "colorName":"magenta",
+        "hexValue":"#f0f"
+    },
+    {
+        "id":6,
+        "colorName":"yellow",
+        "hexValue":"#ff0"
+    },
+    {
+        "id":7
+        "colorName":"black",
+        "hexValue":"#000"
+    }
+]

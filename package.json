@@ -1,0 +1,23 @@
+{
+  "name": "colorcode",
+  "version": "1.0.0",
+  "description": "add your favourite colors",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikona23/colorCodesApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikona23/colorCodesApp/issues"
+  },
+  "homepage": "https://github.com/ikona23/colorCodesApp#readme",
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "lodash": "^4.15.0"
+  }
+}
