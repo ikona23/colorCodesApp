@@ -1,4 +1,4 @@
-"colorsArray":[{
+{"colors":[{
         "id":1,
         "colorName":"red",
         "hexValue":"#f00"
@@ -29,8 +29,9 @@
         "hexValue":"#ff0"
     },
     {
-        "id":7
+        "id":7,
         "colorName":"black",
         "hexValue":"#000"
     }
 ]
+}

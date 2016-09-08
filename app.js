@@ -20,7 +20,17 @@ app.use(express.static(path.join(__dirname, 'public')));
 //---------------------Ignore above here-------------------//
 
 app.get('/', function (req, res) {
-  res.redirect('/color')
+  res.redirect('/colors')
+})
+
+app.get('/colors', function(req, res) {
+  db.getAll('colors', function (err, colorsObj) {
+    if (err) {
+      //if there is an error. throw this message
+      res.send('hey sorry user cant find the colors')
+    }
+    res.render('colors-index', colorsObj)
+  })
 })
 
 

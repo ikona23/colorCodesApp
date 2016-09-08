@@ -1,0 +1,11 @@
+<h1>Color picker</h1>
+<nav>
+  <a class="link" href="/colors/new">add color</a> /
+  <a class="link" href="/colors/help">give me hint</a>
+</nav>
+
+<ul>
+ {{#each cats}}
+  <li><a href="/colors/{{id}}" >{{colorName}}</a></li>
+ {{/each}}
+</ul>
