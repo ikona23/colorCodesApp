@@ -16,22 +16,26 @@
     {
         "id":4,
         "colorName":"cyan",
-        "hexValue":"#0ff"
+        "hexValue":"#0ff",
+        "linkTo": "http://flatui.com/flat-ui-color-palette/"
     },
     {
         "id":5,
         "colorName":"magenta",
-        "hexValue":"#f0f"
+        "hexValue":"#f0f",
+        "linkTo": "http://flatui.com/flat-ui-color-palette/"
     },
     {
         "id":6,
         "colorName":"yellow",
-        "hexValue":"#ff0"
+        "hexValue":"#ff0",
+        "linkTo": "http://flatui.com/flat-ui-color-palette/"
     },
     {
         "id":7,
         "colorName":"black",
-        "hexValue":"#000"
+        "hexValue":"#000",
+        "linkTo": "http://flatui.com/flat-ui-color-palette/"
     }
 ]
 }
