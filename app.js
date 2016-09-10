@@ -12,7 +12,8 @@ var app = express();
 // view engine setup
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
+
 
 // serve the files in /public
 app.use(express.static(path.join(__dirname, 'public')));
@@ -26,16 +27,24 @@ app.get('/', function (req, res) {
 app.get('/colors', function(req, res) {
   db.getAll('colors', function (err, colorsObj) {
     if (err) {
-      //if there is an error. throw this message
       res.send('hey sorry user cant find the colors')
     }
     res.render('colors-index', colorsObj)
   })
 })
 
+// app.delete('/colors/:colorName', function(req,res){
+//   var name = req.params.colorName
+//
+//   var user = ._find(colors, function(c){
+//     return c.colorName
+//   })
+//   var colorName =
+// })
+
 app.get('/colors/:id', function (req, res){
   db.getAll('colors', function (err, colorsObj){
-    var color = _.find(colorsObj.colors, function(color){
+    var color = _.find(colorsObj.hexValue, function(color){
       // console.log(color.id === Number(req.params.id));
       return color.id === Number(req.params.id)
       // console.log(req.params)
@@ -44,9 +53,6 @@ app.get('/colors/:id', function (req, res){
     res.render('colors-show', colorsObj)
   })
 })
-
-
-
 
 
   module.exports = app;

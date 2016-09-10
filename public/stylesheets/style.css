@@ -1,14 +1,18 @@
 html *
 {
-    background: #61BD6D;
-    text-align: center;
-    text-decoration: none;
+  background: #61BD6D;
+  text-align: center;
+  text-decoration: none;
 }
  body {
  }
 ul {
-text-decoration:none;
+  list-style-type: none;
 }
 .bulletsoff {
-text-decoration:none;
+  text-decoration:none;
+}
+img.logo{
+  height: 60px;
+  margin-right:10px;
 }
