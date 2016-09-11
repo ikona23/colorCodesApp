@@ -1,13 +1,18 @@
 html *
 {
-  background: #61BD6D;
+  /*background: #61BD6D;*/
   text-align: center;
   text-decoration: none;
 }
- body {
- }
+
 ul {
   list-style-type: none;
+  font-size: 220%;
+  color: rgb(254, 254, 254);
+}
+a{
+  /*color:white;*/
+  text-decoration: none;
 }
 .bulletsoff {
   text-decoration:none;
@@ -15,4 +20,8 @@ ul {
 img.logo{
   height: 60px;
   margin-right:10px;
+}
+img.banner {
+  height: 40px;
+  margin: 10px;
 }

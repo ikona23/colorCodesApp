@@ -24,6 +24,7 @@ app.get('/', function (req, res) {
   res.redirect('/colors')
 })
 
+
 app.get('/colors', function(req, res) {
   db.getAll('colors', function (err, colorsObj) {
     if (err) {
@@ -33,26 +34,29 @@ app.get('/colors', function(req, res) {
   })
 })
 
+
+
+//
 // app.delete('/colors/:colorName', function(req,res){
 //   var name = req.params.colorName
 //
 //   var user = ._find(colors, function(c){
-//     return c.colorName
+//     return c.
 //   })
 //   var colorName =
 // })
 
-app.get('/colors/:id', function (req, res){
-  db.getAll('colors', function (err, colorsObj){
-    var color = _.find(colorsObj.hexValue, function(color){
-      // console.log(color.id === Number(req.params.id));
-      return color.id === Number(req.params.id)
-      // console.log(req.params)
-    })
-    // console.log(color)
-    res.render('colors-show', colorsObj)
-  })
-})
+// app.get('/colors/:id', function (req, res){
+//   db.getAll('colors', function (err, colorsObj){
+//     var color = _.find(colorsObj.hexValue, function(color){
+//       // console.log(color.id === Number(req.params.id));
+//       return color.id === Number(req.params.id)
+//       // console.log(req.params)
+//     })
+//     // console.log(color)
+//     res.render('colors-show', colorsObj)
+//   })
+// })
 
 
   module.exports = app;

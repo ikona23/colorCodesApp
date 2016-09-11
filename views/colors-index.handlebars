@@ -1,7 +1,15 @@
-<h1> Create your own Palette </h1>
+<h1> Color palette</h1>
+<table>
+    <tr><th></th><th>Name of your color</th><th>HEX value</th></tr>
+    <tr><form action="/" accept-charset="UTF-8" method="post">
+      <td></td><td><input placeholder="Name of your colour" type="text" name="item" /></td>
+      <td><input placeholder="Add HEX value" type="text" name="colorName"/></td>
+      <td><input type="submit" name="addColor" value="Add to you palette" /></td>
+    </form></tr>
+</table>
 <ul>
  {{#each colors}}
-  <li class = "bulletsoff"><a href="/colors/{{id}}">{{colorName}} {{hexValue}}</a></li>
+  <li class = "bulletsoff"><a href="/colors/{{id}}">{{colorName}}  <img class="banner" src="{{src}}"> </a></li>
  {{/each}}
 </ul>
 </div>

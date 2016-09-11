@@ -2,43 +2,43 @@
         "id":1,
         "colorName":"red",
         "hexValue":"#c85353",
-        "linkTo": "http://flatui.com/flat-ui-color-palette/"
+        "src": "img/red.png"
     },
     {
         "id":2,
         "colorName":"green",
         "hexValue":"#59c359",
-        "linkTo": "http://flatui.com/flat-ui-color-palette/"
+        "src": "img/green.png"
     },
     {
         "id":3,
         "colorName":"blue",
         "hexValue":"#4f4fb6",
-        "linkTo": "http://flatui.com/flat-ui-color-palette/"
+          "src": "img/blue.png"
     },
     {
         "id":4,
         "colorName":"cyan",
         "hexValue":"#57c4c4",
-        "linkTo": "http://flatui.com/flat-ui-color-palette/"
+          "src": "img/cyan.png"
     },
     {
         "id":5,
         "colorName":"magenta",
         "hexValue":"#c464c4",
-        "linkTo": "http://flatui.com/flat-ui-color-palette/"
+        "src": "img/green.png"
     },
     {
         "id":6,
         "colorName":"yellow",
         "hexValue":"#cfcf71",
-        "linkTo": "http://flatui.com/flat-ui-color-palette/"
+        "src": "img/yellow.png"
     },
     {
         "id":7,
         "colorName":"black",
         "hexValue":"#000",
-        "linkTo": "http://flatui.com/flat-ui-color-palette/"
+        "src": "img/black.png"
     }
 ]
 }
